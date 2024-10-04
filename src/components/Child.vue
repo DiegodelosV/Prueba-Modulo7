@@ -1,7 +1,13 @@
 <template>
   <div>
-    <input v-model="inputMensaje" type="text" placeholder="Escribe un mensaje" />
-    <button @click="enviarMensaje">Enviar mensaje</button>
+    <input
+      v-model="inputMensaje"
+      type="text"
+      placeholder="Escribe un mensaje"
+      data-test="ingresoMensaje"
+    />
+    <!-- se usa el atributo data-test para las pruebas -->
+    <button @click="enviarMensaje" data-test="Enviar-Mensaje">Enviar mensaje</button>
   </div>
 </template>
 
@@ -17,7 +23,8 @@ export default {
   methods: {
     enviarMensaje() {
       if (this.inputMensaje.trim()) {
-        this.$emit('enviar', this.inputMensaje)
+        // Verificar que el campo de entrada no este vacío
+        this.$emit('enviar', this.inputMensaje) // Emite el evento 'enviar' con el valor del campo de entrada
         this.inputMensaje = '' // Limpiar el campo de entrada
       }
     }
