@@ -5,22 +5,22 @@ export default createStore({
     contador: 0
   },
   mutations: {
-    incrementar(state, payload) {
-      state.contador += payload
+    incrementar(state) {
+      state.contador += 1
     },
-    decrementar(state, payload) {
+    decrementar(state) {
       if (state.contador > 0) {
-        state.contador -= payload
+        state.contador -= 1 // si el contador es mayor a 0, disminuirlo.
       }
     }
   },
   actions: {
     incrementar({ commit }) {
-      commit('incrementar', 1)
+      commit('incrementar')
     },
     decrementar({ commit }) {
       if (this.state.contador > 0) {
-        commit('decrementar', 1) // condicional if para el decremento sea mayor a 0
+        commit('decrementar')
       }
     }
   },
