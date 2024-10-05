@@ -1,14 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/vue,vuejs,node,windows,vs,firebase,test
 # Edit at https://www.toptal.com/developers/gitignore?templates=vue,vuejs,node,windows,vs,firebase,test
 
-### Firebase ###
-.idea
-**/node_modules/*
-**/.firebaserc
-
-### Firebase Patch ###
-.runtimeconfig.json
-.firebase/
 
 ### Node ###
 # Logs
@@ -19,6 +11,13 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+
+### Firebase ###
+.idea
+**/.firebaserc
+
+### Firebase Patch ###
+.firebase/
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
