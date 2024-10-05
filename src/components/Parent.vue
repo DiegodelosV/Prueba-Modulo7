@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="parent d-flex flex-column align-items-center mt-3">
     <Child @enviar="MensajeRecibido" />
     <p v-if="mensaje">mensaje recibido: {{ mensaje }}</p>
   </div>
@@ -27,3 +27,13 @@ export default {
   }
 }
 </script>
+<style scoped>
+.parent {
+  width: 500px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+</style>

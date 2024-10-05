@@ -1,14 +1,20 @@
 <template>
-  <header>
-    <h1>Contador</h1>
+  <header class="text-center my-4">
+    <p class="display-3">Contador</p>
   </header>
-  <main>
-    <div>
-      <h3>El valor del contador es: {{ contador }}</h3>
+  <main class="container text-center">
+    <div class="mb-4">
+      <h3>
+        El valor del contador es: <span class="badge bg-info">{{ contador }}</span>
+      </h3>
     </div>
-    <div>
-      <button @click="incrementar">Incrementar contador</button>
-      <button @click="decrementar">Disminuir contador</button>
+    <div class="d-flex justify-content-center gap-3">
+      <button @click="incrementar" class="btn btn-success">
+        <i class="fas fa-plus"></i> Incrementar contador
+      </button>
+      <button @click="decrementar" class="btn btn-danger">
+        <i class="fas fa-minus"></i> Disminuir contador
+      </button>
     </div>
   </main>
 </template>
@@ -26,3 +32,5 @@ export default {
   }
 }
 </script>
+
+<style scoped></style>

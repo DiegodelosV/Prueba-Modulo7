@@ -1,6 +1,6 @@
 <template>
-  <main>
-    <h1>Ejercicio 3: Comunicación entre componentes</h1>
+  <main class="d-flex flex-column align-items-center">
+    <p class="display-3">Ejercicio 3: Comunicación entre componentes</p>
     <Parent />
   </main>
 </template>
@@ -14,3 +14,5 @@ export default {
   }
 }
 </script>
+
+<style scoped></style>
