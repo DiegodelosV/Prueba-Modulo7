@@ -21,11 +21,12 @@ describe('HomeView', () => {
     await router.isReady()
 
     const wrapper = mount(HomeView, {
+      //se define la configuración del enrutador local durante el montaje
       global: {
         plugins: [router]
       }
     })
 
-    expect(wrapper.findComponent(HomeView).exists()).toBe(true)
+    expect(wrapper.findComponent(HomeView).exists()).toBe(true) // se realiza la aserción, donde se verifica que el componente exista
   })
 })

@@ -24,11 +24,13 @@ import { mapState, mapActions } from 'vuex'
 
 export default {
   name: 'Contador',
+  // 'computed' permite crear propiedades, en donde usamos "mapState"
+  // Mapea el estado de vuex a las propiedades computadas
   computed: {
     ...mapState(['contador'])
   },
   methods: {
-    ...mapActions(['incrementar', 'decrementar'])
+    ...mapActions(['incrementar', 'decrementar']) //se usa "mapActions" para llamar a las acciones de vuex
   }
 }
 </script>
