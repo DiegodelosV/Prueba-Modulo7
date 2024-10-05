@@ -1,16 +1,23 @@
-# Prueba-Modulo7
+# 💡 Prueba-Modulo7
 
-This template should help get you started developing with Vue 3 in Vite.
+Prueba Módulo 7 - Desarrollo de aplicaciones front-end con framework Vue
 
-## Recommended IDE Setup
+## 🛠️ Herramientas DevOps Utilizadas
+
+- **Vue CLI**: Para la configuración inicial del proyecto con Vue Router, Vuex, y Jest.
+- **ESLint**: Para mantener la calidad del código mediante reglas de linting.
+- **Firebase Hosting**: Para el despliegue y hosting de la aplicación.
+- **Jest**: Para la realización de pruebas unitarias.
+
+## 🖥️ Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
+## 🔧 Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## 🚀 Project Setup
 
 ```sh
 npm install
