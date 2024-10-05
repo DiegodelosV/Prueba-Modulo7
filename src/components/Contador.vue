@@ -1,6 +1,6 @@
 <template>
   <header class="text-center my-4">
-    <p class="display-3">Contador</p>
+    <p class="display-5">Contador</p>
   </header>
   <main class="container text-center">
     <div class="mb-4">

@@ -1,6 +1,6 @@
+// Ejercicio 2 - Navegación con Vue Router
 import { mount } from '@vue/test-utils'
 import { createRouter, createWebHistory } from 'vue-router'
-
 import AboutView from '@/views/AboutView.vue'
 
 describe('AboutView', () => {

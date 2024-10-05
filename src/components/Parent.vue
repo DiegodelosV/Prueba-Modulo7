@@ -1,7 +1,7 @@
 <template>
   <div class="parent d-flex flex-column align-items-center mt-3">
     <Child @enviar="MensajeRecibido" />
-    <p v-if="mensaje">mensaje recibido: {{ mensaje }}</p>
+    <p v-if="mensaje" class="fw-bold">Mensaje recibido: {{ mensaje }}</p>
   </div>
 </template>
 

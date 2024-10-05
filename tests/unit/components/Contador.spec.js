@@ -1,3 +1,4 @@
+// Ejercicio 1: Manejo del estado con Vuex
 import { shallowMount } from '@vue/test-utils'
 import Contador from '@/components/Contador.vue'
 import store from '@/store' // Importar el store de Vuex

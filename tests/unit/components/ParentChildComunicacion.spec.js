@@ -1,3 +1,4 @@
+// Ejercicio 3: Comunicación entre componentes
 import { mount } from '@vue/test-utils'
 import Parent from '@/components/Parent.vue'
 

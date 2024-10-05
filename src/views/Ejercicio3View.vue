@@ -1,6 +1,6 @@
 <template>
-  <main class="d-flex flex-column align-items-center">
-    <p class="display-3">Ejercicio 3: Comunicación entre componentes</p>
+  <main class="d-flex flex-column align-items-center my-4">
+    <p class="display-5">Comunicación entre componentes</p>
     <Parent />
   </main>
 </template>
