@@ -4,7 +4,7 @@ import HomeView from '@/views/HomeView.vue'
 import { mount } from '@vue/test-utils'
 
 describe('HomeView', () => {
-  test('Probando la existencia del componente o vista HomeView', async () => {
+  test('Probando la existencia de la vista HomeView', async () => {
     // Crear el router
     const router = createRouter({
       history: createWebHistory(),

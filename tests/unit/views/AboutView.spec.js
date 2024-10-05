@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import AboutView from '@/views/AboutView.vue'
 
 describe('AboutView', () => {
-  test('Probando la existencia del componente AboutView ', async () => {
+  test('Probando la existencia de la AboutView ', async () => {
     const router = createRouter({
       history: createWebHistory(),
       routes: [
