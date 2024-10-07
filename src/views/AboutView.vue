@@ -1,5 +1,14 @@
 <template>
-  <div class="my-4">
-    <p class="text-center display-5">Este es el componente About</p>
-  </div>
+  <TheWelcome msg="¡Bienvenido vista de About!" />
 </template>
+
+<script>
+import TheWelcome from '@/components/TheWelcome.vue'
+
+export default {
+  name: 'AboutView',
+  components: {
+    TheWelcome
+  }
+}
+</script>
